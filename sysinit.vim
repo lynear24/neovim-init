@@ -95,8 +95,8 @@ set background=dark
 colorscheme gruvbox
 
 " Move across wrapped lines like regular lines
-" noremap 0 ^ " Go to the first non-blank character of a line
-" noremap ^ 0 " Just in case you need to go to the very beginning of a line
+noremap 0 ^
+noremap ^ 0
 
 
 " Only shift inner contents in a tag
